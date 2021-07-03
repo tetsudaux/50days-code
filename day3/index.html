@@ -4,13 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 1</title>
+    <title>Rotating Navigation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button class="open">
+                    <i class="fas fa-bars">X</i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ex dolore impedit voluptatem inventore facilis modi, delectus architecto, dicta et mollitia necessitatibus. Illo, sit aspernatur quis quibusdam vero nemo, eius officia omnis natus libero quos neque impedit recusandae harum, iusto velit expedita iure fugiat aliquid? Dolorum, nisi nihil soluta nam quas quibusdam perspiciatis recusandae a deleniti dicta, fugiat iure pariatur dignissimos sint voluptatum ut iste esse cupiditate sed consequatur ipsum ipsam? Iure iste ad dignissimos numquam maiores cum error nulla voluptate nesciunt ullam dicta exercitationem voluptatem tenetur, esse aperiam ducimus perspiciatis architecto omnis. Tempore officiis atque consequuntur voluptate, numquam earum.</p>
+
+            <h3>My Cat</h3>
+            <img src="./assets/cat.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, perferendis consequatur! Neque sit, accusantium quas cum error in quod blanditiis voluptatibus similique dignissimos, dolorem vero vel fugit culpa repellat tempora ipsum amet nostrum consectetur nam quasi voluptas? Incidunt deleniti ratione neque quae? Consequatur sequi commodi deserunt est dolores natus rem.</p>
+        </div>
+        
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </nav>
     <script src="script.js"></script>
 </body>
 </html>
